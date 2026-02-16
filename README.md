@@ -69,15 +69,15 @@
 [스카이라인 쉬운거](https://www.acmicpc.net/problem/1863)  
     
 [편세권](https://www.acmicpc.net/problem/31849)  
-[]()  
+[음악프로그램](https://www.acmicpc.net/problem/2623)  
 
     
-[]()  
-[]()  
+[단어수학](https://www.acmicpc.net/problem/1339)  
+[두 배열의 합](https://www.acmicpc.net/problem/2143)  
 
     
-[]()  
-[]()  
+[특정한 최단 경로](https://www.acmicpc.net/problem/1504)  
+[내리막 길](https://www.acmicpc.net/problem/1520)  
   
   
  </br>
