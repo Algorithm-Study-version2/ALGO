@@ -60,24 +60,18 @@
 
 ## 필수 문제  
     
-2-3주간문제 디펜스   
-[파티](https://www.acmicpc.net/problem/1238)  
-[부분합](https://www.acmicpc.net/problem/1806)  
+2-5주간문제 디펜스   
+[테트로미노](https://www.acmicpc.net/problem/14500)  
+[게임 개발](https://www.acmicpc.net/problem/1516)  
 
     
-[비슷한 단어](https://www.acmicpc.net/problem/2179)  
-[스카이라인 쉬운거](https://www.acmicpc.net/problem/1863)  
+[Puyo Puyo](https://www.acmicpc.net/problem/11559)  
+[별자리 만들기](https://www.acmicpc.net/problem/4386)  
     
-[편세권](https://www.acmicpc.net/problem/31849)  
-[음악프로그램](https://www.acmicpc.net/problem/2623)  
+[이차원 배열과 연산](https://www.acmicpc.net/problem/17140)  
+[괄호 추가하기](https://www.acmicpc.net/problem/16637)  
 
     
-[단어수학](https://www.acmicpc.net/problem/1339)  
-[두 배열의 합](https://www.acmicpc.net/problem/2143)  
-
-    
-[특정한 최단 경로](https://www.acmicpc.net/problem/1504)  
-[내리막 길](https://www.acmicpc.net/problem/1520)  
   
   
  </br>
