@@ -1,8 +1,26 @@
-import java.io.*;
-import java.util.*;
+class Solution {
+    public int minOperations(int n) {
+        int count = 0;
 
-public class Main {
-    public static void main(String[] args) throws Exception {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        while(n>0){
+            //is even 
+            if((n & 1)== 0){
+                n >>=1;
+            }
+
+            //is odd
+            else{
+                count++;
+                //last two bit
+                //01 || 11
+                if(n == 1 || (n&3) == 1){
+                    n--;
+                }
+                else{
+                    n++;
+                }
+            }
+        }
+        return count;
     }
 }
