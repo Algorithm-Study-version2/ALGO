@@ -1,8 +1,15 @@
-import java.io.*;
-import java.util.*;
+class Solution {
+    public List<List<String>> groupAnagrams(String[] strs) {
+        Map<String, List<String>> map = new HashMap<>();
 
-public class Main {
-    public static void main(String[] args) throws Exception {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        for (String word : strs) {
+            char[] chars = word.toCharArray();
+            Arrays.sort(chars);
+            String key = new String(chars);
+
+            map.computeIfAbsent(key, k -> new ArrayList<>()).add(word);
+        }
+
+        return new ArrayList<>(map.values());
     }
 }
