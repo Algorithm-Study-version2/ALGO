@@ -26,4 +26,63 @@ class Solution {
         
         return nil
     }
+
+    func findKthBit(_ n: Int, _ k: Int) -> Character {
+        if n == 1 {
+            return "0"
+        }
+
+        let length = (1 << n) - 1
+        let mid = (length + 1) / 2
+
+        if k == mid {
+            return "1"
+        }
+
+        if k < mid {
+            return findKthBit(n - 1, k)
+        }
+
+        let symmetry = length - k + 1
+        let bit = findKthBit(n - 1, symmetry)
+
+        return bit == "0" ? "1" : "0"
+    }
+
+    func decodeString(_ s: String) -> String {
+        let chars = Array(s)
+        var index = 0
+
+        func parse() -> String {
+            var result = ""
+
+            while index < chars.count {
+                switch chars[index] {
+                case "]":
+                    return result
+
+                case "0"..."9":
+                    var count = 0
+                    while chars[index].isNumber {
+                        count = count * 10 + chars[index].wholeNumberValue!
+                        index += 1
+                    }
+
+                    index += 1
+                    let decoded = parse()
+                    index += 1
+
+                    result += String(repeating: decoded, count: count)
+
+                default:
+                    result.append(chars[index])
+                    index += 1
+                }
+            }
+
+            return result
+        }
+
+        return parse()
+    }
 }
