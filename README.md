@@ -54,15 +54,13 @@
 
 
 
-### 🟨 6-5주간문제 디펜스   
+### 🟨 7-1주간문제 디펜스   
 
 </br>
 
-[Recursion](https://leetcode.com/quest/data-structures-and-algorithms-quest/)  
-[Backtracking](https://leetcode.com/quest/data-structures-and-algorithms-quest/)  
-    
-[Recursion Maze Quiz I](https://leetcode.com/quest/data-structures-and-algorithms-quest/)  
-[Recursion Maze Quiz II](https://leetcode.com/quest/data-structures-and-algorithms-quest/)  
+[Union Find](https://leetcode.com/quest/data-structures-and-algorithms-quest/)  
+[Graph](https://leetcode.com/quest/data-structures-and-algorithms-quest/)  
+[BFS](https://leetcode.com/quest/data-structures-and-algorithms-quest/)  
 
 
  </br>
