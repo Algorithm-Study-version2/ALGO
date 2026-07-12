@@ -54,13 +54,13 @@
 
 
 
-### 🟨 7-1주간문제 디펜스   
+### 🟨 7-2주간문제 디펜스   
 
 </br>
 
-[Union Find](https://leetcode.com/quest/data-structures-and-algorithms-quest/)  
-[Graph](https://leetcode.com/quest/data-structures-and-algorithms-quest/)  
 [BFS](https://leetcode.com/quest/data-structures-and-algorithms-quest/)  
+[Shortest Path](https://leetcode.com/quest/data-structures-and-algorithms-quest/)  
+[Graph Theory Peaks Quiz I](https://leetcode.com/quest/data-structures-and-algorithms-quest/)  
 
 
  </br>
